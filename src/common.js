@@ -6,7 +6,7 @@ const alfy = require('alfy');
 const rootDir = './node_modules/material-design-icons';
 const pngPath = 'drawable-xxhdpi';
 const iconColor = getColor();
-const pngTail = `_${iconColor}_48dp.png`;
+const pngTail = `_${iconColor}_24dp.png`;
 
 function getColor() {
   if (alfy.alfred.version) {
