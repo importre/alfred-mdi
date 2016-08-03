@@ -13,9 +13,6 @@
 - <kbd>Enter</kbd>, then you can see the [homepage][mdi] with the icon
 - If <kbd>Cmd</kbd> + <kbd>Enter</kbd>, then the icon name is saved to clipboard
 
-
-if you want to copy the name to clipboard
-
 ![white]
 
 ### mdicolor
