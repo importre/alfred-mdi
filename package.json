@@ -18,6 +18,7 @@
   },
   "files": [
     "src",
+    "images",
     "icon.png",
     "info.plist"
   ],
