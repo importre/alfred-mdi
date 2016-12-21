@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const alfredNotifier = require('alfred-notifier');
 const common = require('./common');
 const alfy = common.alfy;
 const rootDir = common.rootDir;
@@ -35,6 +36,7 @@ if (alfy.alfred.version) {
   const input = alfy.input;
   const items = data
     .filter(i => i.title.includes(input) || i.subtitle.includes(input))
+  alfredNotifier();
   alfy.output(items);
 } else {
   console.log(data[0]);
