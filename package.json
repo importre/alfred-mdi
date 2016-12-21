@@ -1,6 +1,36 @@
 {
+  "name": "alfred-mdi",
+  "version": "0.1.1",
+  "description": "Alfred 3 workflow to find Material Design Icons",
+  "license": "MIT",
+  "repository": "importre/alfred-mdi",
+  "author": {
+    "name": "Jaewe Heo",
+    "email": "jaeweheo@gmail.com",
+    "url": "importre.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "src",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "material",
+    "design",
+    "icon",
+    ""
+  ],
   "dependencies": {
-    "alfy": "^0.2.1",
+    "alfred-notifier": "^0.2.0",
+    "alfy": "^0.6.0",
     "material-design-icons": "^2.2.3",
     "rimraf": "^2.5.4"
   }

@@ -1,8 +1,13 @@
-<p align="center"><img src="icon.png" alt="alfred-mdi"></p>
+# <div align="center"><img src="./icon.png" width=256><br>alfred-mdi</div>
 
 # alfred-mdi
 
 > [Alfred 3](https://www.alfredapp.com) workflow to find [Material Design Icons][mdi]
+
+
+## Prerequisites
+
+You need [Node.js 4+](https://nodejs.org) and [Alfred 3](https://www.alfredapp.com) with the paid [Powerpack](https://www.alfredapp.com/powerpack/) upgrade.
 
 
 ## Usage
@@ -33,9 +38,9 @@
 
 ## Install
 
-[Install the workflow.](http://www.packal.org/workflow/mdi)
-
-*Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
+```
+$ npm i -g alfred-mdi
+```
 
 
 ## Reference
