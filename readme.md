@@ -1,7 +1,5 @@
 # <div align="center"><img src="./icon.png" width=256><br>alfred-mdi</div>
 
-# alfred-mdi
-
 > [Alfred 3](https://www.alfredapp.com) workflow to find [Material Design Icons][mdi]
 
 
