@@ -1,5 +1,7 @@
 # <div align="center"><img src="./icon.png" width=256><br>alfred-mdi</div>
 
+[![dependencies Status](https://david-dm.org/importre/alfred-mdi/status.svg)](https://david-dm.org/importre/alfred-mdi)
+
 > [Alfred 3](https://www.alfredapp.com) workflow to find [Material Design Icons][mdi]
 
 
